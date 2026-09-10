@@ -1,9 +1,9 @@
 <!-- Canonical shared model connection summary. Credentials and actions remain caller-owned. -->
 <script setup lang="ts">
 import { Cpu } from 'lucide-vue-next'
-import StatusBadge from './StatusBadge.vue'
-import { ensureFarosUIStyles } from './styles'
-ensureFarosUIStyles()
+import StatusBadge from '../portalkit-vue/StatusBadge.vue'
+import { ensureAgentUIStyles } from '../agentkit/styles'
+ensureAgentUIStyles()
 defineProps<{ name: string; model: string; endpoint?: string; configured: boolean; isDefault?: boolean; testState?: string; testTone?: 'success' | 'danger' | 'muted'; busy?: boolean }>()
 </script>
 <template>

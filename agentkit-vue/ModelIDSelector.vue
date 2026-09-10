@@ -3,10 +3,10 @@ import { Check, ChevronDown, Search } from 'lucide-vue-next'
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, useId, watch } from 'vue'
 
 import { filterDiscoveredModels, modelSelectorOptions, type ModelSelectorOption } from './modelIDSelection'
-import { ensureFarosUIStyles } from './styles'
+import { ensureAgentUIStyles } from '../agentkit/styles'
 import type { DiscoveredModel } from './modelIDSelection'
 
-ensureFarosUIStyles()
+ensureAgentUIStyles()
 
 const props = defineProps<{
   modelValue: string

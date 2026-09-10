@@ -1,7 +1,7 @@
 <!-- Canonical usage section; providers own their reporting data and read states. -->
 <script setup lang="ts">
-import { ensureFarosUIStyles } from './styles'
-ensureFarosUIStyles()
+import { ensureAgentUIStyles } from '../agentkit/styles'
+ensureAgentUIStyles()
 defineProps<{ provider: string; available?: boolean }>()
 </script>
 <template>

@@ -1,5 +1,5 @@
-<!-- CANONICAL SOURCE — provider-sdk/portalkit-vue. Do not edit vendored copies
-     under providers/*/portal/src/portalkit/; edit here and run
+<!-- CANONICAL SOURCE — provider-sdk/agentkit-vue. Do not edit vendored copies
+     under providers/*/portal/src/agentkit/; edit here and run
      `make sync-portalkit`.
 
      ModelConnectionForm owns the common model connection controls. Provider
